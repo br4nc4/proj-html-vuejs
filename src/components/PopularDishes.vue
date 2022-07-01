@@ -1,20 +1,52 @@
 <template>
     <div>
         <div class="container">
-            <div class="d-flex justify-content-between">
+            <!-- TOP LINKS POPULAR DISHES -->
+            <div class="d-flex justify-content-around topMenu">
+                <div>
+                    <i class="fa-regular fa-clock"></i>
+                    <span class="ps-3">24/7 DELIVERY</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-burger"></i>
+                    <span class="ps-3">OVER 100 DISCHES</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span class="ps-3">IN APP ORDERING</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-car"></i>
+                    <span class="ps-3">FAST DELIVERY</span>
+                </div>
+            </div>
+            <!-- TITOLO SEZIONE POPULAR DISHES -->
+            <div class="d-flex justify-content-center">
+                <span class="fs-1 fw-bold">Our Most Popular Dishes</span>
+            </div>
 
+            <!-- SEZIONE DELLE FOOD CARD -->
+            <div class="row row-cols-3">
+                <div class="col" v-for="(card, i) in menuFood" :key="i">
+                    <FoodCard
+                    :image="card.imgSrc"
+                    :title="card.foodName"
+                    :price="card.price">
+                    </FoodCard>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import FoodCard from './FoodCard.vue'
 
 
 export default {
     components: {
-    
-    },
+    FoodCard
+},
     data() {
         return {
             menuFood: [
@@ -39,6 +71,15 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
+<style lang="scss" scoped>
+    .topMenu{
+        color: #4b515c;
+    }
+    .topMenu span{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .topMenu i{
+        transform: scale(0.8);
+    }
 </style>

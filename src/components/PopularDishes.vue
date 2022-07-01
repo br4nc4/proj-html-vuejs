@@ -21,13 +21,13 @@
                 </div>
             </div>
             <!-- TITOLO SEZIONE POPULAR DISHES -->
-            <div class="d-flex justify-content-center">
+            <div class="text-center pdTit">
                 <span class="fs-1 fw-bold">Our Most Popular Dishes</span>
             </div>
 
             <!-- SEZIONE DELLE FOOD CARD -->
-            <div class="row row-cols-3">
-                <div class="col" v-for="(card, i) in menuFood" :key="i">
+            <div class="d-flex justify-content-center gap-4">
+                <div v-for="(card, i) in menuFood" :key="i">
                     <FoodCard
                     :image="card.imgSrc"
                     :title="card.foodName"
@@ -35,6 +35,9 @@
                     </FoodCard>
                 </div>
             </div>
+
+            <!-- BUTTON -->
+            
         </div>
     </div>
 </template>
@@ -74,6 +77,7 @@ export default {
 <style lang="scss" scoped>
     .topMenu{
         color: #4b515c;
+        padding-bottom: 90px;
     }
     .topMenu span{
         font-size: 14px;
@@ -81,5 +85,8 @@ export default {
     }
     .topMenu i{
         transform: scale(0.8);
+    }
+    .pdTit{
+        padding-bottom: 60px;
     }
 </style>

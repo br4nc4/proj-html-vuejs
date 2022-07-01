@@ -1,5 +1,5 @@
 <template>
-    <div class="bgHeader">
+    <div class="bgHeader px-2 pt-2">
         <!-- PRIMA SEZIONE HEADER -->
         <div class="d-flex justify-content-end">
             <!-- ICONA ROSSA HEADER -->
@@ -13,8 +13,9 @@
         <!-- SECONDA SEZIONE HEADER -->
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
+                <!-- LOGO -->
                 <img src="/img/takeout-logo.png" alt="">
-
+                <!-- MENU -->
                 <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link text-white" aria-current="page" href="#">
@@ -51,8 +52,20 @@
         </div>
 
         <!-- TERZA SEZIONE HEADER -->
-
+        <div class="d-flex justify-content-end">
+            <div class="d-flex flex-column gap-2">
+                <div class="rounded mySquare bg-white">
+                    <img class="myImg" id="firstImg" src="/img/folders.png" alt="">
+                    <small class="fw-bold">Demos</small>
+                </div>
+                <div class="rounded mySquare bg-white">
+                    <img class="myImg" id="secondImg" src="/img/price.png" alt="">
+                    <small class="fw-bold">On Sale</small>
+                </div>
+            </div>
+        </div>
         <!-- QUARTA SEZIONE HEADER -->
+        
     </div>
 </template>
 
@@ -66,7 +79,13 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+    #firstImg{
+        width: 30px;
+    }
+    #secondImg{
+        width: 38px;
+    }
     .bgHeader{
         background-image: url("/public/img/home-background-hero-scaled.jpg");
         background-repeat: no-repeat;
@@ -90,5 +109,17 @@ export default {
     }
     .nav-item:first-child span{
         color: #fcdc31;
+    }
+    .mySquare{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mySquare small{
+        font-size: 11px;
+        color: #61605e;
     }
 </style>

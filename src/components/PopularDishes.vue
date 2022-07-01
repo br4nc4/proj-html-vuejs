@@ -1,5 +1,5 @@
-<template>
-    <div>
+<template class="position-relative">
+    <div class="dislocate">
         <div class="container">
             <!-- TOP LINKS POPULAR DISHES -->
             <div class="d-flex justify-content-around topMenu">
@@ -26,7 +26,7 @@
             </div>
 
             <!-- SEZIONE DELLE FOOD CARD -->
-            <div class="d-flex justify-content-center gap-4">
+            <div class="d-flex justify-content-center gap-4 pb-4">
                 <div v-for="(card, i) in menuFood" :key="i">
                     <FoodCard
                     :image="card.imgSrc"
@@ -37,7 +37,14 @@
             </div>
 
             <!-- BUTTON -->
-            
+            <div class="text-center">
+                <button type="button" class="btn btn-danger myButton rounded-pill">
+                    START YOUR ORDER
+                    <span class="ps-2 mySpan">
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
         </div>
     </div>
 </template>
@@ -78,6 +85,7 @@ export default {
     .topMenu{
         color: #4b515c;
         padding-bottom: 90px;
+        padding-top: 40px;
     }
     .topMenu span{
         font-size: 14px;
@@ -88,5 +96,35 @@ export default {
     }
     .pdTit{
         padding-bottom: 60px;
+    }
+    .myButton{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ce1a26;
+    --bs-btn-border-color: #dc3545;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb2d3b;
+    --bs-btn-hover-border-color: #b02a37;
+    --bs-btn-focus-shadow-rgb: 225,83,97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b02a37;
+    --bs-btn-active-border-color: #a52834;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc3545;
+    --bs-btn-disabled-border-color: #dc3545;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0.5rem 1.8rem;
+    }
+    .mySpan i{
+        transform: scale(0.9);
+    }
+    .dislocate{
+        padding-bottom: 70px;
+        position: absolute;
+        top: 67.5%;
+        left: 50%;
+        transform: translate(-50%);
+        background-color: white;
     }
 </style>

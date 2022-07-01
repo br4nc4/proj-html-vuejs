@@ -118,7 +118,7 @@ export default {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: top;
+        object-position: 50% 80%;
     }
     .plusIcon{
         background-color: #bf1e23;

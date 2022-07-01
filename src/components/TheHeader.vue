@@ -1,7 +1,7 @@
 <template>
     <div class="bgHeader px-2 pt-2">
         <!-- PRIMA SEZIONE HEADER -->
-        <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-end pb-4">
             <!-- ICONA ROSSA HEADER -->
             <div class="rounded-circle plusIcon">
                 <a href="#">
@@ -11,7 +11,7 @@
         </div>
 
         <!-- SECONDA SEZIONE HEADER -->
-        <div class="container">
+        <div class="container pb-3">
             <div class="d-flex justify-content-between align-items-center">
                 <!-- LOGO -->
                 <img src="/img/takeout-logo.png" alt="">
@@ -65,7 +65,22 @@
             </div>
         </div>
         <!-- QUARTA SEZIONE HEADER -->
-        
+        <div class="container myContainer">
+            <div class="d-flex justify-content-start">
+                <div class="textBlock">
+                    <p class="text-white fw-bold fs-2 mb-0">Hungry?</p>
+                    <p style="color: #fcdc31;" class="myText fw-bold mb-0">Great Food</p>
+                    <p class="myText fw-bold text-white">Delivered</p>
+                    <button type="button" class="btn btn-danger myButton rounded-pill">
+                        VIEW OUR MENU
+                        <span class="ps-2 mySpan">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
     </div>
 </template>
 
@@ -121,5 +136,38 @@ export default {
     .mySquare small{
         font-size: 11px;
         color: #61605e;
+    }
+    .myText{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .myButton{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ce1a26;
+    --bs-btn-border-color: #dc3545;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb2d3b;
+    --bs-btn-hover-border-color: #b02a37;
+    --bs-btn-focus-shadow-rgb: 225,83,97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b02a37;
+    --bs-btn-active-border-color: #a52834;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc3545;
+    --bs-btn-disabled-border-color: #dc3545;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0.5rem 1.8rem;
+    }
+    .textBlock:last-child p{
+        margin-bottom: 30px;
+    }
+    .mySpan i{
+        transform: scale(0.9);
+    }
+    .myContainer{
+        padding-top: 80px;
+        padding-bottom: 400px;
     }
 </style>

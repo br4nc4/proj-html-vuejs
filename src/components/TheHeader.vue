@@ -1,17 +1,19 @@
 <template>
-    <div class="bgHeader px-2 pt-2">
-        <!-- PRIMA SEZIONE HEADER -->
-        <div class="d-flex justify-content-end pb-4">
+    <div class="myJumbotron position-relative px-2 pt-2">
+        <div class="bgJumbo"><img src="/img/home-background-hero-scaled.jpg" alt=""></div>
+        <div class="position-relative">
+            <!-- PRIMA SEZIONE HEADER -->
+            <div class="d-flex justify-content-end pb-4">
             <!-- ICONA ROSSA HEADER -->
             <div class="rounded-circle plusIcon">
                 <a href="#">
                     <i class="fa-solid fa-plus"></i>
                 </a>
             </div>
-        </div>
+            </div>
 
         <!-- SECONDA SEZIONE HEADER -->
-        <div class="container pb-3">
+            <div class="container pb-3">
             <div class="d-flex justify-content-between align-items-center">
                 <!-- LOGO -->
                 <img src="/img/takeout-logo.png" alt="">
@@ -49,10 +51,10 @@
                     </li>
                 </ul>
             </div>
-        </div>
+            </div>
 
         <!-- TERZA SEZIONE HEADER -->
-        <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-end">
             <div class="d-flex flex-column gap-2">
                 <div class="rounded mySquare bg-white">
                     <img class="myImg" id="firstImg" src="/img/folders.png" alt="">
@@ -63,9 +65,9 @@
                     <small class="fw-bold">On Sale</small>
                 </div>
             </div>
-        </div>
+            </div>
         <!-- QUARTA SEZIONE HEADER -->
-        <div class="container myContainer">
+            <div class="container myContainer">
             <div class="d-flex justify-content-start">
                 <div class="textBlock">
                     <p class="text-white fw-bold fs-2 mb-0">Hungry?</p>
@@ -79,6 +81,7 @@
                     </button>
                 </div>
                 
+            </div>
             </div>
         </div>
     </div>
@@ -101,11 +104,21 @@ export default {
     #secondImg{
         width: 38px;
     }
-    .bgHeader{
-        background-image: url("/public/img/home-background-hero-scaled.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+    .myJumbotron{
+        min-height: 1000px;
+    }
+    .bgJumbo{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .bgJumbo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
     }
     .plusIcon{
         background-color: #bf1e23;
@@ -168,6 +181,5 @@ export default {
     }
     .myContainer{
         padding-top: 80px;
-        padding-bottom: 400px;
     }
 </style>

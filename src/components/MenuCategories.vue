@@ -49,7 +49,7 @@
                     <p>Vegetarian</p>
                 </div>
                 <div class="icons">
-                    <img class="pb-1" src="/img/corn.png" alt="">
+                    <img src="/img/corn.png" alt="">
                     <p>Gluten Free</p>
                 </div>
                 <div class="icons">

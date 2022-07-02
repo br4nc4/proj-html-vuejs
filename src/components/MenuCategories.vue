@@ -42,8 +42,8 @@
                     </div>
             </div>
 
-            <!-- 4 ICONE -->
-            <div class="d-flex align-items-center">
+            <!-- 4 ICONE LEAF CORN MILK MEAT -->
+            <div class="d-flex align-items-center justify-content-around">
                 <div class="icons">
                     <img src="/img/leaf.png" alt="">
                     <p>Vegetarian</p>
@@ -109,5 +109,6 @@
     }
     .icons{
         text-align: center;
+        font-weight: 700;
     }
 </style>

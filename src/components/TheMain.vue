@@ -2,18 +2,21 @@
     <div>
         <PopularDishes></PopularDishes>
         <MegaTwentyPercentBg></MegaTwentyPercentBg>
+        <MenuCategories></MenuCategories>
     </div>
 </template>
 
 <script>
 import PopularDishes from './PopularDishes.vue';
 import MegaTwentyPercentBg from './MegaTwentyPercentBg.vue';
+import MenuCategories from './MenuCategories.vue';
 
 
 export default {
     components: {
     PopularDishes,
-    MegaTwentyPercentBg
+    MegaTwentyPercentBg,
+    MenuCategories
 }
 }
 </script>

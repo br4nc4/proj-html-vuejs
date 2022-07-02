@@ -14,43 +14,43 @@
 
         <!-- SECONDA SEZIONE HEADER -->
             <div class="container pb-3">
-            <div class="d-flex justify-content-between align-items-center">
-                <!-- LOGO -->
-                <img src="/img/takeout-logo.png" alt="">
-                <!-- MENU -->
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">
-                            <span class="fw-bold">Home</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">
-                            <span class="fw-bold">Order Online</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">
-                            <span class="fw-bold">About</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">
-                            <span class="fw-bold">News</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">
-                            <span class="fw-bold">Contact Us</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white myLink" aria-current="page" href="#">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <!-- LOGO -->
+                    <img src="/img/takeout-logo.png" alt="">
+                    <!-- MENU -->
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">
+                                <span class="fw-bold">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">
+                                <span class="fw-bold">Order Online</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">
+                                <span class="fw-bold">About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">
+                                <span class="fw-bold">News</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">
+                                <span class="fw-bold">Contact Us</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white myLink" aria-current="page" href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         <!-- TERZA SEZIONE HEADER -->
@@ -181,5 +181,8 @@ export default {
     }
     .myContainer{
         padding-top: 80px;
+    }
+    .container{
+        max-width: 1032px;
     }
 </style>

@@ -15,14 +15,18 @@
             <div class="d-flex myDflex">
                 <div class="">
                     <img class="myImg" src="/img/pancake-burger-600x450.jpg" alt="">
-                    <p class="myTitle fw-bold text-center">NEW: The Pancake Burger</p>
-                    <p class="text-center myText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodaiers ipsum vel elementum vehicula. Suspendisse sit amet aliquet ex. Pellentesque commodo tortor vel mi</p>
+                    <div class="text-center">
+                        <p class="myTitle fw-bold">NEW: The Pancake Burger</p>
+                        <small class="myText text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodaiers ipsum vel elementum vehicula. Suspendisse sit amet aliquet ex. Pellentesque commodo tortor vel mi</small>
+                    </div>
                 </div>
 
                 <div class="">
                     <img class="myImg" src="/img/new-milkshake-menu-600x450.jpg" alt="">
-                    <p class="myTitle fw-bold text-center">New Milkshake Menu</p>
-                    <p class="text-center myText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodaiers ipsum vel elementum vehicula. Suspendisse sit amet aliquet ex. Pellentesque commodo tortor vel mi</p>
+                    <div class="text-center">
+                        <p class="myTitle fw-bold">New Milkshake Menu</p>
+                        <small class="myText text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodaiers ipsum vel elementum vehicula. Suspendisse sit amet aliquet ex. Pellentesque commodo tortor vel mi</small>
+                    </div>
                 </div>
             </div>
         </div>

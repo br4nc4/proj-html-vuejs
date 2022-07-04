@@ -1,4 +1,4 @@
-<template class="position-relative">
+<template>
     <div class="myPosition container">
             <!-- TOP LINKS POPULAR DISHES -->
             <div class="d-flex justify-content-around topMenu">
@@ -119,12 +119,11 @@ export default {
     }
     .myPosition{
         padding-bottom: 70px;
-        position: absolute;
-        top: 67.5%;
-        left: 50%;
-        transform: translate(-50%);
+        position: relative;
         background-color: white;
         z-index: 3;
+        margin-top: -95px;
+        margin-bottom: 25px;
     }
     .container{
         max-width: 1050px;

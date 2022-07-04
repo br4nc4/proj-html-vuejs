@@ -82,7 +82,7 @@
     }
     .myText{
         text-align: center;
-        margin: 0 45px;
+        margin: 0 30px;
     }
     .myPadding{
         padding-top: 125px;

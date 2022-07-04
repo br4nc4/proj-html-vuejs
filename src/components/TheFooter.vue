@@ -7,7 +7,7 @@
           <!-- ORDER ONLINE -->
           <div class="">
             <ul class="list-unstyled myList">
-              <h6 class="text-white">ORDER ONLINE</h6>
+              <h6 class="text-white mb-3">ORDER ONLINE</h6>
               <li>
                 <a href="#">Appetizers</a>
               </li>
@@ -37,7 +37,7 @@
           <!-- NAVIGATE -->
           <div class="">
             <ul class="list-unstyled myList">
-              <h6 class="text-white">NAVIGATE</h6>
+              <h6 class="text-white mb-3">NAVIGATE</h6>
               <li>
                 <a class="primaryColor" href="#">Home</a>
               </li>
@@ -64,7 +64,7 @@
           <!-- INFORMATION -->
           <div>
             <ul class="list-unstyled myList thirdList">
-              <h6 class="text-white">INFORMATION</h6>
+              <h6 class="text-white mb-3">INFORMATION</h6>
               <li>
                 <a href="#">My Account</a>
               </li>
@@ -123,6 +123,11 @@
               <p class="text-white">At Checkout</p>
             </div>
           </div>
+        </div>
+
+        <!-- STAY IN THE LOOP -->
+        <div class="text-center">
+          <img src="/img/takeout-logo-mobile.png" alt="">
         </div>
       </div>
     </div>

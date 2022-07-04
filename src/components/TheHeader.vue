@@ -68,20 +68,19 @@
             </div>
         <!-- QUARTA SEZIONE HEADER -->
             <div class="container myContainer">
-            <div class="d-flex justify-content-start">
-                <div class="textBlock">
-                    <p class="text-white fw-bold fs-2 mb-0">Hungry?</p>
-                    <p style="color: #fcdc31;" class="myText fw-bold mb-0">Great Food</p>
-                    <p class="myText fw-bold text-white">Delivered</p>
-                    <button type="button" class="btn btn-danger myButton rounded-pill">
-                        VIEW OUR MENU
-                        <span class="ps-2 mySpan">
-                            <i class="fa-solid fa-circle-arrow-right"></i>
-                        </span>
-                    </button>
+                <div class="d-flex justify-content-start">
+                    <div class="textBlock">
+                        <p class="text-white fw-bold fs-2 mb-0">Hungry?</p>
+                        <p style="color: #fcdc31;" class="myText fw-bold mb-0">Great Food</p>
+                        <p class="myText fw-bold text-white">Delivered</p>
+                        <button type="button" class="btn btn-danger myButton rounded-pill">
+                            VIEW OUR MENU
+                            <span class="ps-2 mySpan">
+                                <i class="fa-solid fa-circle-arrow-right"></i>
+                            </span>
+                        </button>
+                    </div>
                 </div>
-                
-            </div>
             </div>
         </div>
     </div>

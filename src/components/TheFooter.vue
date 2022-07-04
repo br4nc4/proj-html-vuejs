@@ -126,8 +126,41 @@
         </div>
 
         <!-- STAY IN THE LOOP -->
+        <div class="d-flex justify-content-center">
+          <div class="text-center myForm">
+            <img src="/img/takeout-logo-mobile.png" alt="">
+            <p class="primaryColor fs-1 fw-bold">Stay In The Loop</p>
+            <small class="text-white">Sign up receive up to date news and offers directly in your inbox:</small>
+            <input class="d-block form-control m-auto rounded-pill" type="text" placeholder="you@email.com">
+            <button type="button" class="btn btn-danger myButton rounded-pill">SUBSCRIBE</button>
+            <div class="d-flex justify-content-center">
+              <div class="d-flex text-white gap-3">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-solid fa-rss"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="text-center">
-          <img src="/img/takeout-logo-mobile.png" alt="">
+          <small class="copyright">
+              <span class="primaryColor">
+                © Copryright 2012 - 2020 | Avada Theme by
+              </span>
+              <span class="text-white">
+                Theme Fusion
+              </span>
+              <span class="primaryColor">
+                | All Rights Reserved | Powered By
+              </span>
+              <span class="text-white">
+                WordPress
+              </span>
+            </small>
         </div>
       </div>
     </div>
@@ -202,5 +235,33 @@ export default {
     }
     .myContainer{
       padding-top: 120px;
+    }
+    .myForm{
+      width: 630px;
+    }
+    .myButton{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ce1a26;
+    --bs-btn-border-color: #dc3545;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb2d3b;
+    --bs-btn-hover-border-color: #b02a37;
+    --bs-btn-focus-shadow-rgb: 225,83,97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b02a37;
+    --bs-btn-active-border-color: #a52834;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc3545;
+    --bs-btn-disabled-border-color: #dc3545;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0.4rem 1.4rem;
+    width: 630px;
+    height: 38px;
+    }
+    .copyright{
+      font-size: 11px;
+      font-weight: 700;
     }
 </style>

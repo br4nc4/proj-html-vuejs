@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="myPadding">
         <div class="container">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between pdTitle">
                 <span class="fs-1 fw-bold">Latest News</span>
                 <div>
                     <button type="button" class="btn btn-danger myButton rounded-pill">
@@ -14,18 +14,22 @@
             </div>
             <div class="d-flex myDflex">
                 <div class="">
-                    <img class="myImg" src="/img/pancake-burger-600x450.jpg" alt="">
+                    <img class="myImg first" src="/img/pancake-burger-600x450.jpg" alt="">
                     <div class="text-center">
-                        <p class="myTitle fw-bold">NEW: The Pancake Burger</p>
-                        <small class="myText text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodaiers ipsum vel elementum vehicula. Suspendisse sit amet aliquet ex. Pellentesque commodo tortor vel mi</small>
+                        <p class="myTitle fw-bold mb-0">NEW: The Pancake Burger</p>
+                    </div>
+                    <div class="myText">
+                        <small class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodaiers ipsum vel elementum vehicula. Suspendisse sit amet aliquet ex. Pellentesque commodo tortor vel mi</small>
                     </div>
                 </div>
 
                 <div class="">
-                    <img class="myImg" src="/img/new-milkshake-menu-600x450.jpg" alt="">
+                    <img class="myImg second" src="/img/new-milkshake-menu-600x450.jpg" alt="">
                     <div class="text-center">
-                        <p class="myTitle fw-bold">New Milkshake Menu</p>
-                        <small class="myText text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodaiers ipsum vel elementum vehicula. Suspendisse sit amet aliquet ex. Pellentesque commodo tortor vel mi</small>
+                        <p class="myTitle fw-bold mb-0">New Milkshake Menu</p>                        
+                    </div>
+                    <div class="myText"> 
+                        <small class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodaiers ipsum vel elementum vehicula. Suspendisse sit amet aliquet ex. Pellentesque commodo tortor vel mi</small>
                     </div>
                 </div>
             </div>
@@ -60,13 +64,32 @@
         max-width: 1050px;
     }
     .myImg{
-        width: 490px;
+        width: 512.5px;
     }
     .myDflex{
-        gap: 45px;
+        justify-content: space-between;
     }
     .myTitle{
         font-size: 35px;
+    }
+    .first{
+        padding-right: 20px;
+        margin-bottom: 28px;
+    }
+    .second{
+        padding-left: 20px;
+        margin-bottom: 28px;
+    }
+    .myText{
+        text-align: center;
+        margin: 0 45px;
+    }
+    .myPadding{
+        padding-top: 125px;
+        padding-bottom: 150px;
+    }
+    .pdTitle{
+        padding-bottom: 50px;
     }
 </style>
 

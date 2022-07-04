@@ -25,7 +25,7 @@
             </div>
 
             <!-- SEZIONE DELLE FOOD CARD -->
-            <div class="d-flex justify-content-center gap-4 pb-4">
+            <div class="d-flex justify-content-between gap-4 pb-4">
                 <div v-for="(card, i) in menuFood" :key="i">
                     <FoodCard
                     :image="card.imgSrc"

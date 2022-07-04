@@ -2,7 +2,7 @@
     <div>
         <div class="container">
             <!-- TITOLO E BOTTONE MENU CATEGORIES -->
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between pdMenu">
                 <span class="fs-1 fw-bold">Menu Categories</span>
                 <div>
                     <button type="button" class="btn btn-danger myButton rounded-pill">
@@ -15,7 +15,7 @@
             </div>
 
             <!-- IMMAGINI MENU CATEGORIES 4 COLONNE -->
-            <div class="row row-cols-4">
+            <div class="row row-cols-4 pdGrid">
                     <div class="col px-0 d-flex justify-content-center align-items-center">
                         <img class="myImg" src="/img/appetizers-menu-background.jpg" alt="">
                     </div>
@@ -43,7 +43,7 @@
             </div>
 
             <!-- 4 ICONE LEAF CORN MILK MEAT -->
-            <div class="d-flex align-items-center justify-content-around">
+            <div class="d-flex align-items-center justify-content-around pb-5">
                 <div class="icons">
                     <img src="/img/leaf.png" alt="">
                     <p>Vegetarian</p>
@@ -110,5 +110,12 @@
     .icons{
         text-align: center;
         font-weight: 700;
+    }
+    .pdMenu{
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+    .pdGrid{
+        margin-bottom: 40px;
     }
 </style>

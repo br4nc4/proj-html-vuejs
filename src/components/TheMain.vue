@@ -3,6 +3,7 @@
         <PopularDishes></PopularDishes>
         <MegaTwentyPercentBg></MegaTwentyPercentBg>
         <MenuCategories></MenuCategories>
+        <OrderingApp></OrderingApp>
     </div>
 </template>
 
@@ -10,13 +11,15 @@
 import PopularDishes from './PopularDishes.vue';
 import MegaTwentyPercentBg from './MegaTwentyPercentBg.vue';
 import MenuCategories from './MenuCategories.vue';
+import OrderingApp from './OrderingApp.vue';
 
 
 export default {
     components: {
     PopularDishes,
     MegaTwentyPercentBg,
-    MenuCategories
+    MenuCategories,
+    OrderingApp
 }
 }
 </script>

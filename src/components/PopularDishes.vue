@@ -1,6 +1,5 @@
 <template class="position-relative">
-    <div class="dislocate">
-        <div class="container">
+    <div class="myPosition container">
             <!-- TOP LINKS POPULAR DISHES -->
             <div class="d-flex justify-content-around topMenu">
                 <div>
@@ -45,7 +44,6 @@
                     </span>
                 </button>
             </div>
-        </div>
     </div>
 </template>
 
@@ -114,12 +112,12 @@ export default {
     --bs-btn-disabled-border-color: #dc3545;
     font-size: 12px;
     font-weight: 700;
-    padding: 0.5rem 1.8rem;
+    padding: 0.4rem 1.5rem;
     }
     .mySpan i{
         transform: scale(0.9);
     }
-    .dislocate{
+    .myPosition{
         padding-bottom: 70px;
         position: absolute;
         top: 67.5%;
@@ -127,5 +125,8 @@ export default {
         transform: translate(-50%);
         background-color: white;
         z-index: 3;
+    }
+    .container{
+        max-width: 1050px;
     }
 </style>

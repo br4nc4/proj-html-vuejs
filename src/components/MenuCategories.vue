@@ -6,7 +6,7 @@
                 <span class="fs-1 fw-bold">Menu Categories</span>
                 <div>
                     <button type="button" class="btn btn-danger myButton rounded-pill">
-                        START YOUR ORDER
+                        VIEW THE FULL MENU
                         <span class="ps-2 mySpan">
                             <i class="fa-solid fa-circle-arrow-right"></i>
                         </span>
@@ -43,7 +43,7 @@
             </div>
 
             <!-- 4 ICONE LEAF CORN MILK MEAT -->
-            <div class="d-flex align-items-center justify-content-around pb-5">
+            <div class="d-flex align-items-center justify-content-around">
                 <div class="icons">
                     <img src="/img/leaf.png" alt="">
                     <p>Vegetarian</p>
@@ -89,20 +89,20 @@
     --bs-btn-disabled-border-color: #dc3545;
     font-size: 12px;
     font-weight: 700;
-    padding: 0.5rem 1.8rem;
+    padding: 0.4rem 1.3rem;
     }
     .mySpan i{
         transform: scale(0.9);
     }
     .myImg{
         width: 100%;
-        height: 175px;
+        height: 180px;
         object-fit: cover;
         object-position: top center;
-        padding: 0 1rem 1rem 0;
+        padding: 0.5rem;
     }
     .container{
-        max-width: 1032px;
+        max-width: 1050px;
     }
     .icons img{
         transform: scale(0.8)

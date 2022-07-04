@@ -36,9 +36,10 @@ export default {
         background-size: cover;
         background-position: top center;
         height: 510px;
+        margin-top: 110px;
     }
     .container{
-        max-width: 1032px;
+        max-width: 1050px;
     }
     .myText{
         font-size: 70px;

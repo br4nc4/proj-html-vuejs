@@ -4,6 +4,7 @@
         <MegaTwentyPercentBg></MegaTwentyPercentBg>
         <MenuCategories></MenuCategories>
         <OrderingApp></OrderingApp>
+        <LatestNews></LatestNews>
     </div>
 </template>
 
@@ -12,6 +13,7 @@ import PopularDishes from './PopularDishes.vue';
 import MegaTwentyPercentBg from './MegaTwentyPercentBg.vue';
 import MenuCategories from './MenuCategories.vue';
 import OrderingApp from './OrderingApp.vue';
+import LatestNews from './LatestNews.vue';
 
 
 export default {
@@ -19,7 +21,8 @@ export default {
     PopularDishes,
     MegaTwentyPercentBg,
     MenuCategories,
-    OrderingApp
+    OrderingApp,
+    LatestNews
 }
 }
 </script>

@@ -171,7 +171,7 @@ export default {
     --bs-btn-disabled-border-color: #dc3545;
     font-size: 12px;
     font-weight: 700;
-    padding: 0.5rem 1.8rem;
+    padding: 0.4rem 1.4rem;
     }
     .textBlock:last-child p{
         margin-bottom: 30px;
@@ -183,6 +183,6 @@ export default {
         padding-top: 80px;
     }
     .container{
-        max-width: 1032px;
+        max-width: 1050px;
     }
 </style>

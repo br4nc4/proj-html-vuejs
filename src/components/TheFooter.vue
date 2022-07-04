@@ -2,8 +2,8 @@
   <div class="myFooter position-relative">
     <div class="bgFooter"><img src="/img/footer-background-scaled.jpg" alt=""></div>
     <div class="position-relative">
-      <div class="container">
-        <div class="d-flex">
+      <div class="container myContainer">
+        <div class="d-flex justify-content-between">
           <!-- ORDER ONLINE -->
           <div class="">
             <ul class="list-unstyled myList">
@@ -194,5 +194,8 @@ export default {
     }
     .orderText{
       margin-top: -18px;
+    }
+    .myContainer{
+      padding-top: 120px;
     }
 </style>

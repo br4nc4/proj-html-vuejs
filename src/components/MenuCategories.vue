@@ -16,29 +16,37 @@
 
             <!-- IMMAGINI MENU CATEGORIES 4 COLONNE -->
             <div class="row row-cols-4 pdGrid">
-                    <div class="col px-0 d-flex justify-content-center align-items-center">
+                    <div class="col px-0 d-flex justify-content-center align-items-center position-relative">
                         <img class="myImg" src="/img/appetizers-menu-background.jpg" alt="">
+                        <div class="overlay text-white fw-bold">APPETIZERS</div>
                     </div>
-                    <div class="col px-0 d-flex justify-content-center align-items-center">
+                    <div class="col px-0 d-flex justify-content-center align-items-center position-relative">
                         <img class="myImg" src="/img/burgers-menu-background.jpg" alt="">
+                        <div class="overlay text-white fw-bold">BURGERS</div>
                     </div>
-                    <div class="col px-0 d-flex justify-content-center align-items-center">
+                    <div class="col px-0 d-flex justify-content-center align-items-center position-relative">
                         <img class="myImg" src="/img/pizza-menu-background.jpg" alt="">
+                        <div class="overlay text-white fw-bold">PIZZAS</div>
                     </div>
-                    <div class="col px-0 d-flex justify-content-center align-items-center">
+                    <div class="col px-0 d-flex justify-content-center align-items-center position-relative">
                         <img class="myImg" src="/img/fries-menu-background.jpg" alt="">
+                        <div class="overlay text-white fw-bold">FRIES</div>
                     </div>
-                    <div class="col px-0 d-flex justify-content-center align-items-center">
+                    <div class="col px-0 d-flex justify-content-center align-items-center position-relative">
                         <img class="myImg" src="/img/sides-menu-background.jpg" alt="">
+                        <div class="overlay text-white fw-bold">SIDES</div>
                     </div>
-                    <div class="col px-0 d-flex justify-content-center align-items-center">
+                    <div class="col px-0 d-flex justify-content-center align-items-center position-relative">
                         <img class="myImg" src="/img/desserts-menu-background.jpg" alt="">
+                        <div class="overlay text-white fw-bold">DESSERTS</div>
                     </div>
-                    <div class="col px-0 d-flex justify-content-center align-items-center">
+                    <div class="col px-0 d-flex justify-content-center align-items-center position-relative">
                         <img class="myImg" src="/img/beverages-menu-background.jpg" alt="">
+                        <div class="overlay text-white fw-bold">BEVERAGES</div>
                     </div>
-                    <div class="col-3 px-0 d-flex justify-content-center align-items-center">
+                    <div class="col-3 px-0 d-flex justify-content-center align-items-center position-relative">
                         <img class="myImg" src="/img/specials-menu-background.jpg" alt="">
+                        <div class="overlay text-white fw-bold">SPECIALS</div>
                     </div>
             </div>
 
@@ -117,5 +125,18 @@
     }
     .pdGrid{
         margin-bottom: 40px;
+    }
+    .overlay{
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        bottom: 0;
+        right: 0;
+        width: 246.5px;
+        height: 164px;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 </style>

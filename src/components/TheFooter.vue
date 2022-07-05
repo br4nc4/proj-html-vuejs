@@ -3,7 +3,7 @@
     <div class="bgFooter"><img src="/img/footer-background-scaled.jpg" alt=""></div>
     <div class="position-relative">
       <div class="container myContainer">
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between mb-4">
           <!-- ORDER ONLINE -->
           <div class="">
             <ul class="list-unstyled myList">
@@ -126,14 +126,14 @@
         </div>
 
         <!-- STAY IN THE LOOP -->
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center pt-3">
           <div class="text-center myForm">
-            <img src="/img/takeout-logo-mobile.png" alt="">
-            <p class="primaryColor fs-1 fw-bold">Stay In The Loop</p>
+            <img class="pb-4" src="/img/takeout-logo-mobile.png" alt="">
+            <p class="primaryColor mt-2 fs-1 fw-bold mb-2">Stay In The Loop</p>
             <small class="text-white">Sign up receive up to date news and offers directly in your inbox:</small>
-            <input class="d-block form-control m-auto rounded-pill" type="text" placeholder="you@email.com">
-            <button type="button" class="btn btn-danger myButton rounded-pill">SUBSCRIBE</button>
-            <div class="d-flex justify-content-center">
+            <input class="d-block form-control m-auto rounded-pill my-4" type="text" placeholder="you@email.com">
+            <button type="button" class="btn btn-danger myButton rounded-pill mt-2 mb-5">SUBSCRIBE</button>
+            <div class="d-flex justify-content-center mt-2 mb-4">
               <div class="d-flex text-white gap-3">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
@@ -146,7 +146,7 @@
             </div>
           </div>
         </div>
-        <div class="text-center">
+        <div class="text-center mt-3">
           <small class="copyright">
               <span class="primaryColor">
                 © Copryright 2012 - 2020 | Avada Theme by

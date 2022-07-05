@@ -22,6 +22,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" aria-current="page" href="#">
                                 <span class="fw-bold">Home</span>
+                                <span class="ps-2 homeLink">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </span>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -183,5 +186,8 @@ export default {
     }
     .container{
         max-width: 1050px;
+    }
+    .homeLink i{
+        transform: scale(0.8);
     }
 </style>

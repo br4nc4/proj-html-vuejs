@@ -71,6 +71,7 @@ export default {
         position: absolute;
         left: 50%;
         transform: translate(-50%);
+        font-size: 15px;
     }
     .myCircle img{
         width: 35px;

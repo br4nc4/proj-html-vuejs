@@ -62,15 +62,15 @@ export default {
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 33%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%);
     }
     .hoverText{
-        top: 50%;
+        top: 58%;
         position: absolute;
         left: 50%;
-        transform: translate(-50%, 30%);
+        transform: translate(-50%);
     }
     .myCircle img{
         width: 35px;

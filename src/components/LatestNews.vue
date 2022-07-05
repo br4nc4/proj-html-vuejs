@@ -13,8 +13,9 @@
                 </div>
             </div>
             <div class="d-flex myDflex">
-                <div class="">
+                <div class="position-relative">
                     <img class="myImg first" src="/img/pancake-burger-600x450.jpg" alt="">
+                    <div class="overlay"></div>
                     <div class="text-center">
                         <p class="myTitle fw-bold mb-0">NEW: The Pancake Burger</p>
                     </div>
@@ -23,8 +24,9 @@
                     </div>
                 </div>
 
-                <div class="">
+                <div class="position-relative">
                     <img class="myImg second" src="/img/new-milkshake-menu-600x450.jpg" alt="">
+                    <div class="overlay2"></div>
                     <div class="text-center">
                         <p class="myTitle fw-bold mb-0">New Milkshake Menu</p>                        
                     </div>
@@ -65,6 +67,32 @@
     }
     .myImg{
         width: 512.5px;
+    }
+    .overlay:hover{
+        opacity: 1;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        width: 492px;
+        height: 369px;
+    }
+    .overlay2:hover{
+        opacity: 1;
+    }
+    .overlay2{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        width: 492px;
+        height: 369px;
     }
     .myDflex{
         justify-content: space-between;

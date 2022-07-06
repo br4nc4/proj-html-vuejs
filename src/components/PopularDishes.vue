@@ -100,7 +100,7 @@ export default {
     --bs-btn-bg: #ce1a26;
     --bs-btn-border-color: #dc3545;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #bb2d3b;
+    --bs-btn-hover-bg: #aa131d;
     --bs-btn-hover-border-color: #b02a37;
     --bs-btn-focus-shadow-rgb: 225,83,97;
     --bs-btn-active-color: #fff;

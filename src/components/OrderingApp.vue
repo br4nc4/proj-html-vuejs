@@ -5,7 +5,7 @@
                 <div class="pt-2">
                     <div class="pb-5">
                         <p class="text-white fw-bold fs-2 mb-0">Download Our</p>
-                        <p style="color: #fcdc31;" class="myText fw-bold mb-0">Ordering App</p>
+                        <p class="myText fw-bold mb-0">Ordering App</p>
                     </div>
                     <div class="d-flex pt-2 gap-3">
                         <img class="myImg" src="/img/app-store-badge-200x67.png" alt="">
@@ -44,6 +44,7 @@ export default {
     .myText{
         font-size: 70px;
         line-height: 60px;
+        color: #fcdc31;
     }
     .myImg{
         width: 145px;

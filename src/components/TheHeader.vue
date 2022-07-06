@@ -74,7 +74,7 @@
                 <div class="d-flex justify-content-start">
                     <div class="textBlock">
                         <p class="text-white fw-bold fs-2 mb-0">Hungry?</p>
-                        <p style="color: #fcdc31;" class="myText fw-bold mb-0">Great Food</p>
+                        <p class="myText fw-bold mb-0">Great Food</p>
                         <p class="myText fw-bold text-white">Delivered</p>
                         <button type="button" class="btn btn-danger myButton rounded-pill">
                             VIEW OUR MENU
@@ -177,6 +177,9 @@ export default {
     }
     .textBlock:last-child p{
         margin-bottom: 30px;
+        &:nth-child(2){
+            color: #fcdc31;
+        }
     }
     .mySpan i{
         transform: scale(0.9);
